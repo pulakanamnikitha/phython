@@ -14,7 +14,7 @@ def quickSort(arr,low,high):
 		pi = partition(arr,low,high)
 		quickSort(arr, low, pi-1)
 		quickSort(arr, pi+1, high)
-arr = [1,2,3]
+arr = [1,2,3,4,5]
 n = len(arr)
 quickSort(arr,0,n-1)
 for i in range(n):
