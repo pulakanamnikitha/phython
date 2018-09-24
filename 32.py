@@ -1,6 +1,6 @@
-string=raw_input()
+str=raw_input()
 word=1
-for i in string:
+for i in str:
       if(i==' '):
             word=word+1
 print(word)
