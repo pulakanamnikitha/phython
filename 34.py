@@ -1,2 +1,2 @@
-name=raw_input()
-print(len(name.split('.')))
+n=raw_input()
+print(len(n.split('.')))
