@@ -1,6 +1,6 @@
 n=int(raw_input())
-l,r=map(int,raw_input().split())
-if l<n and n<r:
+p,q=map(int,raw_input().split())
+if p<n and n<q:
     print "yes"
 else:
     print "no"
